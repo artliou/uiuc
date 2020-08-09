@@ -1,0 +1,19 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  generateName: premium-class-
+spec:
+  ttlSecondsAfterFinished: 120
+  template:
+    spec:
+      containers:
+      - name: premium
+        image: arthurl3/cs498:mp3
+        command: ["python",  "./classify.py"]
+        env: 
+        - name: DATASET
+          value: "mnist"
+        - name: TYPE
+          value: "ff"
+      restartPolicy: Never
+  backoffLimit: 4

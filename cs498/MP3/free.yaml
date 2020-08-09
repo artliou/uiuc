@@ -1,0 +1,26 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  generateName: free-class-
+spec:
+  ttlSecondsAfterFinished: 120
+  template:
+    spec:
+      containers:
+      - name: free
+        image: arthurl3/cs498:mp3
+        command: ["python",  "./classify.py"]
+        env:
+        - name: DATASET
+          value: "kmnist"
+        - name: TYPE
+          value: "cnv"
+        resources:
+          limits:
+            memory: "800Mi"
+            cpu: "0.9" 
+          requests:
+            memory: "600Mi"
+            cpu: "0.9"
+      restartPolicy: Never
+  backoffLimit: 4

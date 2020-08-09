@@ -1,0 +1,44 @@
+CS598 Online Discussion of Presentations
+arthurl3
+
+1) https://mediaspace.illinois.edu/media/t/0_7wxlbxe5: Question: I indicated that I liked the level of detail and breakdown of the presentation. I also shared 2 "new direction" questions that I thought of: one related to Production vs non-Production environments and one about Azure vs other cloud providers.
+2) https://mediaspace.illinois.edu/media/0_7cmvf92i: Comment: I found the topic to be very interesting and the presenter's breakdown of the experiment's approach and findings great. I made a suggestion to improve one of the slides of the presentation and also thought about the finding's usefulness to industry use.
+3) https://mediaspace.illinois.edu/media/t/1_suof8lkg: Comment: I indicated what I found useful about the presentation and how the findings could be applied to real-world experience, like my own as I will do availability metrics from time to time.
+4) https://mediaspace.illinois.edu/media/t/0_ruy984h7: Comment+Question: As a user of Facebook (well back in college days), I found this presentation very interesting and insightful into Facebook's backend for determining social graphs. I also asked a question regarding where people think Facebook make take TAO towards in the future.
+5) https://mediaspace.illinois.edu/media/t/1_t70yt4fw: Comment: This presentation taught me how RDD and Spark were developed & also how some of the comparison experiments between MapReduce and Spark were also similar in nature to my paper.
+6) https://mediaspace.illinois.edu/media/t/0_7vvs5k7b: Comment: I found the presentation very well done and informative. I'm curious to know how companies will begin to work around the challenges of serverless computing and eventually use it as the default in the future.
+7) https://mediaspace.illinois.edu/media/t/0_ykg8itkp: Comment: A comment on my own video to agree with a comment and follow up with a response to the comment's question.
+
+Addendums
+
+Responses
+1) I like the level of detail and breakdown of the paper's experiment and results. A few "new direction" questions I thought of while watching the presentation is:
+- Are there similar percentages for the types of bugs in non-Production environments? I'm curious as to whether one category, such as data-format incidents, may have a greater percentage in Production vs others.
+- Are there similar percentages for the types of bugs in non-Azure hosted environments like AWS or Google Cloud? Could some type of bugs be more common in Azure environments?
+2) I liked your breakdown of the paper and found the experiment's approach and findings insightful. Your presentation and breakdowns of the current solutions, challenges, intro to the CherryPick approach, how it works (in action), design, implementation, and findings were great. The slides had a good amount of explanatory text and images/charts. However, on the Effectiveness slide, I would have split up the large paragraph to more clearly distinguish between the different workloads and their respective explanations. I imagine this approach would be very useful to data analysts, data scientists, and companies who are looking to optimize their big data analytics jobs.
+3) Interesting presentation about the "Nines" and very useful for how companies can better measure their availability metrics for cloud providers. I found this very interesting as part of my role includes doing availability metrics from time to time, so having this presentation really helps me better understand metrics and cloud service levels. I also found the presentation well organized in the pros/cons/new direction and also the takeaways of the experiment that can be applied to real world experience.
+4) As a user of Facebook (back in college days), I found this presentation very interesting and insightful into Facebook's backend for determining social graphs. Clean and very technical breakdown of the Data Model, API, requirements, architecture, scaling, and the summary/conclusion of TAO. I definitely learned quite a bit. What new directions does everyone think Facebook may go with TAO?
+5) This was a great presentation. I learned more about RDD and Spark, like the technical details of how Spark utilizes RDD operations. I found some of the experiments interesting because they compared MapReduce and Spark in certain occasions, which ties into my paper that compared the speeds of MapReduce and Spark and analyzed the differences in their frameworks that contributed to how and why one was faster than the other.
+6) I liked how the presentation dived deep into the meat and started sharing the popularity and issues that led to Serverless Computing. From there, I found the "Attractiveness of Serverless Computing" slide very informative. The table of applications was great; made it clear for each application what was the issues and challenges were and how they would collectively show the 4 limits of Serverless Computing. I found the proposed solutions for each limit interesting and am curious to know, in the real-world, how companies will use the solutions to workaround the challenges of serverless computing and see serverless computing will become the default in the future.
+
+
+Instructions
+
+Each line should have the following format:
+
+<URL-to-video>: <Category-of-Post>: A very brief summary of the post with 1~2 sentences.
+
+Where <URL-to-video> is the URL to the video of the paper for which you’ve provided a comment, or raised a question (you should be able to easily cut and paste it) and <Category-of_Post> can be of one of the three categories {Question, Answer, Comment}. Please make sure to use *exactly* *one* line for each comment or question. That is, make sure to have just one line break at the very end of the description and do not include any extra line break.
+
+For example,
+
+http://...illinois.edu/some-presentation-video: Question: I asked a question about why the authors have chosen to do X instead of Y in the paper.
+
+http://...illinois.edu/another-presentation-video: Answer: I answered a question about why the authors have chosen to do X instead of Y in the paper. My answer is xxxx.
+
+http://...illinois.edu/some-presentation-video: Comment: I made a comment on the novelty of the work. I think the idea was already proposed in reference [3] cited in the paper.
+
+
+pick a paper, prepare a presentation video, 
+-> then watch 6 other videos and participate in discussions. 
+Then peer grade the videos you have watched, and submit a file so we can grade your participation. 
